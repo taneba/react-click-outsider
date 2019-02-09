@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "author": "ynakamura <ynakamura.vla@gmail.com>",
+  "homepage": "https://github.com/taneba/react-click-outsider",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taneba/react-click-outsider"
+  },
   "license": "MIT",
   "scripts": {
     "dist": "rollup -c rollup.config.js",
