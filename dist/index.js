@@ -60,7 +60,7 @@
             if (e.type === 'click' && isTouch.current)
                 return;
             var el = container.current;
-            if (el && !e.target && el.contains(e.target))
+            if (el && e.target && !el.contains(e.target))
                 props.onClickOutside(e);
         };
         return (React__default.createElement("div", __assign({}, restProps, { ref: container }), props.children));

@@ -23,7 +23,8 @@ export default function ClickOutside(props: Props) {
     if (e.type === 'touchend') isTouch.current = true
     if (e.type === 'click' && isTouch.current) return
     const el = container.current
-    if (el && !e.target && el.contains(e.target)) props.onClickOutside(e)
+    if (el && e.target && !el.contains(e.target as Node))
+      props.onClickOutside(e)
   }
 
   return (
