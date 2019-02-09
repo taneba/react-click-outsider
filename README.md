@@ -14,7 +14,7 @@ NOTE: Make sure your application is using react >= 16.8
 ### `ClickOutside`
 Wrapp your component that you want to enhance with click outside detection:
 
-```
+```js
 import ClickOutside from 'react-click-outsider'
 import React, { setState } from 'react'
 
@@ -33,7 +33,7 @@ function App() {
 
 A custom hook dealing with clicks outside. `ClickOutside` uses this custom hook internally.
 
-```
+```js
 import {useClickOutside} from 'react-click-outsider'
 import React, { setState, useRef } from 'react'
 
