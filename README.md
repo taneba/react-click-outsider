@@ -29,9 +29,7 @@ function App() {
 }
 ```
 
-### `useClickOutside(containerRef: React.RefObject<HTMLElement>,
-  onClickOutside: (e: MouseEvent | TouchEvent) => void
-)`
+### `useClickOutside(containerRef: React.RefObject<HTMLElement>, onClickOutside: (e: MouseEvent | TouchEvent) => void`
 
 A custom hook dealing with clicks outside. `ClickOutside` uses this custom hook internally.
 
