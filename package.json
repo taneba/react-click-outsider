@@ -1,0 +1,28 @@
+{
+  "name": "react-click-outsider",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "author": "ynakamura <ynakamura.vla@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dist": "rollup -c rollup.config.js",
+    "lint": "lynt"
+  },
+  "peerDependencies": {
+    "react": ">= 16.8.0",
+    "react-dom": ">= 16.8.0"
+  },
+  "devDependencies": {
+    "lynt": "0.5.4",
+    "react": "16.8.1",
+    "react-dom": "16.8.1",
+    "rollup": "1.1.2",
+    "rollup-plugin-commonjs": "9.2.0",
+    "rollup-plugin-typescript2": "0.19.2",
+    "typescript": "3.3.3"
+  },
+  "dependencies": {
+    "@types/react": "16.8.2",
+    "@types/react-dom": "16.8.0"
+  }
+}
