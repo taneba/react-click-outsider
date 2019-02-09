@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "dist": "rollup -c rollup.config.js",
-    "lint": "lynt"
+    "lint": "lynt --typescript --react"
   },
   "peerDependencies": {
     "react": ">= 16.8.0",
