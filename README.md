@@ -31,7 +31,7 @@ function App() {
 
 ### `useClickOutside(ref: React.RefObject<HTMLElement>, function: (e: MouseEvent | TouchEvent) => void`
 
-A custom hook dealing with clicks outside. `ClickOutside` uses this custom hook internally.
+A custom hook dealing with clicks outside of arbitrary dom. `ClickOutside` uses this custom hook internally.
 
 ```js
 import {useClickOutside} from 'react-click-outsider'
@@ -48,3 +48,6 @@ function App() {
   )
 }
 ```
+
+## License
+[MIT License](https://github.com/taneba/react-click-outsider/blob/master/LICENCE)
